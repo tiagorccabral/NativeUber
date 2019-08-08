@@ -4,6 +4,8 @@ import { View } from 'react-native';
 
 import MapView from 'react-native-maps';
 
+import Search from '../Search';
+
 // import { Container } from './styles';
 
 export default class Map extends Component {
@@ -42,6 +44,7 @@ export default class Map extends Component {
           showsUserLocation
           loadingEnabled
         />
+        <Search />
       </View>
     );
   }
